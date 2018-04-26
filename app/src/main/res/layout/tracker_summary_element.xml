@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tracker_summary_element_table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_ui">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/date_time_received_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:paddingTop="1dp"
+            android:text="@string/date_time_received"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_time_received"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:paddingTop="1dp"
+            android:text="TextView"
+            android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/id_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/id_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/rssi_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/rssi_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_rssi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/latitude_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/latitude_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/longitude_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/longitude_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/altitude_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/altitude_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_altitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/hdop_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/hdop_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_hdop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/pressure_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/pressure_sensor_pressure_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/pressure_sensor_temperature_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/pressure_sensor_temperature_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_thermistor_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/battery_mv_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/battery_mv_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_battery_mv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/battery_ma_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="@string/battery_ma_header"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tracker_battery_ma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="1dp"
+                android:text="TextView"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
