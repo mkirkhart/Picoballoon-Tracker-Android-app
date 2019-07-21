@@ -14,4 +14,4 @@ This source code can be compiled with Android Studio version 3.1.2 and Gradle.
 
 ### Note
 - Android 4.3 or later is required (API level 18)
-- Android Studio supported (version 3.1.2)
+- Android Studio supported (version 3.1.2 - recently updated to version 3.4.1)
